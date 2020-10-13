@@ -26,10 +26,8 @@ else{
     prezzo_finale = prezzo_per_chilometro;
 }
 
-//Arotonda per eccesso il risultato fino ai centesimi
+//Arotonda il risultato fino ai centesimi
 var prezzo_finale_arrotondato = prezzo_finale.toFixed(2);
 
 //stampa il risultato nella card
-
-
 document.getElementById('card2').innerHTML = ("Il biglietto costa:  ") + prezzo_finale_arrotondato + (" Euro");
